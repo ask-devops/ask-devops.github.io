@@ -14,8 +14,10 @@ imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
 envVars:
-  - name: "FRONENTEND_ENV"
+  - name: "FRONTEND_ENV"
     value: "DEV"
+  - name: NODE_ENV
+    value: "nginx-env-web-app"
 serviceAccount:
   # Specifies whether a service account should be created
   create: true

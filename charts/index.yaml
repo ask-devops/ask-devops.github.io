@@ -3,7 +3,17 @@ entries:
   ask-nginx-web-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-10-14T15:52:59.5484011-04:00"
+    created: "2021-10-14T16:08:49.9307754-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 7270744c1cfc4c57b5489726d9aeef4bb6eae8570bfae6789d72d8442dfa1f18
+    name: ask-nginx-web-app
+    type: application
+    urls:
+    - https://ask-devops.github.io/charts/ask-nginx-web-app-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-14T16:08:49.9278054-04:00"
     description: A Helm chart for Kubernetes
     digest: 6f023b071a0d6942f0ddb4b51c8c77f196870d04016886240153d5d121f96973
     name: ask-nginx-web-app
@@ -13,7 +23,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-10-14T15:52:59.5454025-04:00"
+    created: "2021-10-14T16:08:49.9257716-04:00"
     description: A Helm chart for Kubernetes
     digest: 6fa60620e79e8b297d4668af4bfbe122a2d563edce8b89e66458a48a6ced14f9
     name: ask-nginx-web-app
@@ -23,7 +33,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-10-14T15:52:59.5434041-04:00"
+    created: "2021-10-14T16:08:49.9227809-04:00"
     description: A Helm chart for Kubernetes
     digest: 0221dbc07854b43e458c1145d396e975023c87bcad3010b6a64c7626c2eaf1db
     name: ask-nginx-web-app
@@ -33,7 +43,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-10-14T15:52:59.5404176-04:00"
+    created: "2021-10-14T16:08:49.9197699-04:00"
     description: A Helm chart for Kubernetes
     digest: 897c777b5106902daf40d84dd96cbf7cdc45751a1974322d7edf6b7b7103f055
     name: ask-nginx-web-app
@@ -43,7 +53,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-10-14T15:52:59.5383659-04:00"
+    created: "2021-10-14T16:08:49.9177717-04:00"
     description: A Helm chart for Kubernetes
     digest: b060f4a31a051b73b82dcee8496eda0628482b89fbc8a9d9f575829d3ae55f6d
     name: ask-nginx-web-app
@@ -53,7 +63,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-10-14T15:52:59.5353747-04:00"
+    created: "2021-10-14T16:08:49.9148039-04:00"
     description: A Helm chart for Kubernetes
     digest: 2069167d76b804b8818992e86154d72577c6b7d2bc281840421c525aa1508075
     name: ask-nginx-web-app
@@ -63,7 +73,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-10-14T15:52:59.5161438-04:00"
+    created: "2021-10-14T16:08:49.9127718-04:00"
     description: A Helm chart for Kubernetes
     digest: 3cb022c9a9bff0a39f0f4ac6fc7aefa136b775422400b8a0883d3e171ab18959
     name: ask-nginx-web-app
@@ -73,7 +83,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-10-14T15:52:59.5133494-04:00"
+    created: "2021-10-14T16:08:49.9107992-04:00"
     description: A Helm chart for Kubernetes
     digest: 404b4cca6d6c8149a20e0cc41480fd2786dfbfca376084a72bf3e2af24ef4f3d
     name: ask-nginx-web-app
@@ -81,4 +91,4 @@ entries:
     urls:
     - https://ask-devops.github.io/charts/ask-nginx-web-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-10-14T15:52:59.5103469-04:00"
+generated: "2021-10-14T16:08:49.907771-04:00"
