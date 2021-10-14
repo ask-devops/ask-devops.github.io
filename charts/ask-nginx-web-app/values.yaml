@@ -13,7 +13,9 @@ image:
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
-
+envVars:
+  - name: "FRONENTEND_ENV"
+    value: "DEV"
 serviceAccount:
   # Specifies whether a service account should be created
   create: true
