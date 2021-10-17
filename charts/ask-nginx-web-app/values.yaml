@@ -13,6 +13,10 @@ image:
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
+envSecretsVars:
+  SECRET_DB_USERNAME: "TO-BE-INJECTED"
+  SECRET_DB_PASSWORD: "TO-BE-INJECTED"
+  
 envVars:
   - name: "FRONTEND_ENV"
     value: "DEV"
