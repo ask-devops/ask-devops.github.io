@@ -37,16 +37,10 @@ spec:
             {{- with .Values.envVars }}
              {{- toYaml . | nindent 10 }}
             {{- end}}
-            name: SECRET_DB_USERNAME
-            valueFrom:
-              secretKeyRef:
-                name: {{ include "ask-nginx-web-app.fullname" . }} 
-                key: SECRET_DB_USERNAME
-            name: SECRET_DB_PASSWORD
-            valueFrom:
-              secretKeyRef:
-                name: {{ include "ask-nginx-web-app.fullname" . }}  
-                key: SECRET_DB_PASSWORD
+          envFrom:
+          - secretRef:
+              name: {{ include "ask-nginx-web-app.fullname" . }}  
+
           ports:
             - name: http
               containerPort: 80
