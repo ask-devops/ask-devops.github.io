@@ -9,6 +9,10 @@ data:
   index.html: |
     <!DOCTYPE html>
     <html>
+    <head>
+      <title>{{ .Values.css.title }}</title>
+      <script src="/inject.js"></script>
+    </head>
     <center>
     <body style="background-color:{{ .Values.css.background }};">
     <h1> {{ .Values.css.heading }}</h1>
