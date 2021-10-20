@@ -9,8 +9,12 @@ data:
   index.html: |
     <!DOCTYPE html>
     <html>
+    <center>
     <body style="background-color:{{ .Values.css.background }};">
-    {{ .Values.css.heading }}
+   <h1> {{ .Values.css.heading }}</h1>
+    <div id="app"></div>
+    <script src="/app.js"></script>
+    </center>
     </body>
     </html>
   {{- end }}
