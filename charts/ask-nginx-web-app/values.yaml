@@ -13,6 +13,10 @@ image:
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
+css:
+  enabled: false
+  background: white
+  heading: hi all welcome to DevOps 3.0!
 envSecretsVars:
   SECRET_DB_USERNAME: "TO-BE-INJECTED"
   SECRET_DB_PASSWORD: "TO-BE-INJECTED"

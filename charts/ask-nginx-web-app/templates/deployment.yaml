@@ -55,6 +55,12 @@ spec:
               port: http
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
+          
+          volumeMounts:
+          {{- if  .Values.css.enabled }}
+            - name: configuration-volume
+              mountPath: /usr/share/nginx/html
+          {{- end }}
       {{- with .Values.nodeSelector }}
       nodeSelector:
         {{- toYaml . | nindent 8 }}
@@ -67,4 +73,11 @@ spec:
       tolerations:
         {{- toYaml . | nindent 8 }}
       {{- end }}
+      volumes:
+      {{- if  .Values.css.enabled }}
+      - name: configuration-volume
+        configMap:
+          name: {{ include "ask-nginx-web-app.fullname" . }}-conf
+      {{- end }}
+ 
  

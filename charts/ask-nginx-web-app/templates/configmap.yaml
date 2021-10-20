@@ -1,0 +1,16 @@
+{{- if .Values.css.enabled -}}
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ include "ask-nginx-web-app.fullname" . }}-conf
+  labels:
+    {{- include "ask-nginx-web-app.labels" . | nindent 4 }}
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+    <body style="background-color:{{ .Values.css.background }};">
+    {{ .Values.css.heading }}
+    </body>
+    </html>
+  {{- end }}
