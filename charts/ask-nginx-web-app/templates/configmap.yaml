@@ -11,7 +11,7 @@ data:
     <html>
     <center>
     <body style="background-color:{{ .Values.css.background }};">
-   <h1> {{ .Values.css.heading }}</h1>
+    <h1> {{ .Values.css.heading }}</h1>
     <div id="app"></div>
     <script src="/app.js"></script>
     </center>
